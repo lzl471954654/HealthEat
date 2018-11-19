@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HealthEat</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Me</string>
+    <string name="tody_steps">今日步数</string>
+    <string name="step_count_original">12588步</string>
+    <string name="kcal_original">已消耗：227kcal</string>
+</resources>

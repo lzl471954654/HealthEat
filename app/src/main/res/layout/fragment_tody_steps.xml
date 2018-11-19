@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3991ed"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+            android:id="@+id/circle"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:background="@drawable/shape_circle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+    <TextView
+            android:id="@+id/steps_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/step_count_original"
+            android:textColor="@color/text_white"
+            app:layout_constraintStart_toStartOf="@id/circle"
+            app:layout_constraintEnd_toEndOf="@id/circle"
+            app:layout_constraintTop_toTopOf="@id/circle"
+            app:layout_constraintBottom_toBottomOf="@id/circle"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            />
+
+    <TextView
+            android:id="@+id/step_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tody_steps"
+            app:layout_constraintStart_toStartOf="@id/circle"
+            app:layout_constraintEnd_toEndOf="@id/circle"
+            app:layout_constraintTop_toTopOf="@id/circle"
+            app:layout_constraintBottom_toTopOf="@id/steps_count"
+            android:layout_marginTop="16dp"
+
+            android:textSize="28sp"
+            android:textColor="@color/text_white"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kcal_original"
+            android:textColor="@color/text_white"
+            app:layout_constraintStart_toStartOf="@id/circle"
+            app:layout_constraintEnd_toEndOf="@id/circle"
+            app:layout_constraintTop_toTopOf="@id/steps_count"
+            app:layout_constraintBottom_toBottomOf="@id/circle"
+            android:textSize="16sp"
+            />
+
+
+
+</android.support.constraint.ConstraintLayout>
