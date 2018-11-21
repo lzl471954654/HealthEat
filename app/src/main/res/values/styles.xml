@@ -14,4 +14,8 @@
         <item name="colorPrimary">#3e94ef</item>
     </style>
 
+
+    <style name="AppTheme.Login" parent="AppTheme">
+
+    </style>
 </resources>
